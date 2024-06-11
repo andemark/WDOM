@@ -17,7 +17,7 @@ say Date::WDOM.new(weekday-of-month => 'L',
 ```
 use Date::WDOM;
 
-say Date::WDOM.new(weekday-of-month => '4',
+say Date::WDOM.new(weekday-of-month =>  4,
                    day-of-week      =>  4,
                    month            =>  11,
                    year             =>  2030).yyyy-mm-dd; # Thanksgiving 2030-11-28
