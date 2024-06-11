@@ -29,8 +29,8 @@ for ^100000
                       month            => $dt.month, 
                       year             => $dt.year).mm-dd-yyyy, $dt.mm-dd-yyyy,
                                           $dt.mm-dd-yyyy ~ ' Last ' ~ 
-                                          $day-names[$dt.day-of-week];
+                                          $day-names[$dt.day-of-week]
     }
     
-    $dt++;
+    $dt++
 }
