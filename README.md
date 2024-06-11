@@ -11,7 +11,7 @@ use Date::WDOM;
 say Date::WDOM.new(weekday-of-month => 'L',
                    day-of-week      =>  1,
                    month            =>  5,
-                   year             =>  2030).yyyy-mm-dd # Memorial Day 2030-05-27
+                   year             =>  2030).yyyy-mm-dd; # Memorial Day 2030-05-27
 ```
 
 ```
@@ -20,7 +20,7 @@ use Date::WDOM;
 say Date::WDOM.new(weekday-of-month => '4',
                    day-of-week      =>  4,
                    month            =>  11,
-                   year             =>  2030).yyyy-mm-dd # Thanksgiving 2030-11-28
+                   year             =>  2030).yyyy-mm-dd; # Thanksgiving 2030-11-28
 ```
 
 *-Mark Anderson*
