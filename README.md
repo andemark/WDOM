@@ -1,7 +1,7 @@
 # WDOM
 (WDOM is an acronym for weekday-of-month)
 
-This module provides a constructor to create a Date object given year, month, weekday-of-month, and day-of-week arguments.  
+This module provides a constructor to create a [Date](https://docs.raku.org/type/Date) object given year, month, weekday-of-month, and day-of-week arguments.  
 The weekday-of-month argument will also accept 'L' for the last weekday-of-month.
 
 ### Examples
